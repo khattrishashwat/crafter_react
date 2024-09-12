@@ -1,0 +1,33 @@
+/* CSS for draggable items */
+.draggable-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* CSS for the hover effect when dropping onto the calendar */
+.fc-day-droppable {
+  background-color: #e2f5ff; /* Light blue background color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.fc-day-droppable.hover {
+  background-color: #b3e0ff; /* Darker blue background color when hovered */
+}
+
+
+
+
+.pop-body-text d-flex justify-content-between{
+    position: fixed;
+    top: 114.391px;
+    left: 1148.11px;
+    box-sizing: border-box;
+    width: 394.891px;
+    height: 48px;
+    /* transition: transform 0.36s cubic-bezier(0.2, 1, 0.1, 1) 0s, opacity 0.36s cubic-bezier(0.2, 1, 0.1, 1) 0s; */
+    z-index: 4500;
+    pointer-events: none;
+}
